@@ -1,0 +1,55 @@
+{
+    "name": "arcade-fancy-text",
+    "version": "0.1.1",
+    "files": [
+        "docs/animate-at-speed.md",
+        "docs/animate-for-time.md",
+        "docs/cancel-animation.md",
+        "docs/create.md",
+        "docs/flag.md",
+        "docs/font.md",
+        "docs/get-color.md",
+        "docs/get-text.md",
+        "docs/remaining-animation-time.md",
+        "docs/set-animation-sound.md",
+        "docs/set-color.md",
+        "docs/set-font.md",
+        "docs/set-frame.md",
+        "docs/set-max-width.md",
+        "docs/set-text-flag.md",
+        "docs/set-text.md",
+        "docs/text-speed.md",
+        "font.ts",
+        "parse.ts",
+        "draw.ts",
+        "sprite.ts",
+        "api.ts",
+        "built-fonts/art-deco-11-font.ts",
+        "built-fonts/bold-sans-7-font.ts",
+        "built-fonts/geometric-sans-11-font.ts",
+        "built-fonts/geometric-sans-6-font.ts",
+        "built-fonts/geometric-sans-7-font.ts",
+        "built-fonts/geometric-sans-9-font.ts",
+        "built-fonts/geometric-serif-11-font.ts",
+        "built-fonts/geometric-serif-6-font.ts",
+        "built-fonts/geometric-serif-7-font.ts",
+        "built-fonts/geometric-serif-9-font.ts",
+        "built-fonts/gothic-large-font.ts",
+        "built-fonts/italic-small-font.ts",
+        "built-fonts/outline-medium-font.ts",
+        "built-fonts/rounded-large-font.ts",
+        "built-fonts/rounded-small-font.ts",
+        "built-fonts/serif-small-font.ts",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "arcade"
+    ],
+    "dependencies": {
+        "device": "*"
+    },
+    "testDependencies": {}
+}
