@@ -409,18 +409,15 @@ namespace fancyText {
     }
 
     /**
-     * Color block used to pick colors with
+     * Color picker
      */
     //% shim=TD_ID
-    //% blockId=fancy_text__textColorBlock
-    //% block="Color $color"
-    //% sprite.shadow=variables_get
-    //% sprite.defl=myTextSprite
-    //% color.shadow=colorindexpicker
+    //% blockId=fancy_text__colorPicker
+    //% block="$color"
     //% group=Create
     //% weight=0
     //% help=github:arcade-fancy-text/docs/set-color
-    export function colorPicker(color: number): number {
+    export function __colorPicker(color: number): number {
         return color;
     }
 
