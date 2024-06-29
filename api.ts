@@ -414,10 +414,11 @@ namespace fancyText {
     //% shim=TD_ID
     //% blockId=fancy_text__colorPicker
     //% block="$color"
+    //% color.shadow=colorindexpicker
     //% group=Create
     //% weight=0
     //% help=github:arcade-fancy-text/docs/set-color
-    export function __colorPicker(color: number): number {
+    export function __colorPicker(color?: number): number {
         return color;
     }
 
