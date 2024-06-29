@@ -200,6 +200,23 @@ namespace fancyText {
         (sprite as TextSprite).setFont(font);
     }
 
+    /**
+     * Gets the font of a TextSprite.
+     *
+     * @param sprite The TextSprite to get the text of
+     * @returns The font of the TextSprite
+     */
+    //% blockId=fancy_text_get_font
+    //% block="$sprite font"
+    //% sprite.shadow=variables_get
+    //% sprite.defl=myTextSprite
+    //% group=Create
+    //% weight=65
+    //% help=github:arcade-fancy-text/docs/get-text
+    export function getFont(sprite: Sprite) {
+        assertTextSprite(sprite);
+        return (sprite as TextSprite).getFont();
+    }
 
     /**
      * Sets a frame to be drawn around this TextSprite

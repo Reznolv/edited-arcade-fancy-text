@@ -1,5 +1,8 @@
-# arcade-fancy-text
+# Extra additions
+## new function(s)
+* textSprite get font: added a block function that returns the given text sprite's font.
 
+# original arcade-fancy-text readme
 
 ## Included Fonts
 

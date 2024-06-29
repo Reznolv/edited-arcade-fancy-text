@@ -160,6 +160,10 @@ namespace fancyText {
             this.recalculateLines();
         }
 
+        getFont() {
+            return this.defaultFont;
+        }
+
         setMaxLines(lines: number) {
             this.drawnLines = lines;
         }
