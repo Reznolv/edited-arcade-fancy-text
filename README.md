@@ -1,6 +1,7 @@
 # Extra additions
 ## new function(s)
-* textSprite get font: added a block function that returns the given text sprite's font.
+* textSprite get font: A block function that returns the given text sprite's font.
+* colorPicker: A block function that just lets you pick a color instead of typing a number.
 
 # original arcade-fancy-text readme
 

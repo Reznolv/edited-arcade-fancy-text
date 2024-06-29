@@ -408,6 +408,22 @@ namespace fancyText {
         return flag;
     }
 
+    /**
+     * Color block used to pick colors with
+     */
+    //% shim=TD_ID
+    //% blockId=fancy_text__textColorBlock
+    //% block="Color $color"
+    //% sprite.shadow=variables_get
+    //% sprite.defl=myTextSprite
+    //% color.shadow=colorindexpicker
+    //% group=Create
+    //% weight=0
+    //% help=github:arcade-fancy-text/docs/set-color
+    export function colorPicker(color: number): number {
+        return color;
+    }
+
     //% whenUsed
     //% block="default arcade"
     //% blockIdentity="fancyText.__fontPicker"
